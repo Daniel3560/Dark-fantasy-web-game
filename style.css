@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a0f2b; /* Very dark purple/blue for a deep fantasy feel */
+    font-family: 'Inter', sans-serif; /* A clean, modern font */
+    color: #ddd; /* Light text for UI elements */
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+canvas {
+    border: 3px solid #5a006a; /* A strong, dark purple border for the game screen */
+    display: block; /* Removes extra space below the canvas */
+    background-color: #000; /* Black background for the main game world */
+    border-radius: 8px; /* Slightly rounded corners for a softer look */
+    box-shadow: 0 0 20px rgba(90, 0, 106, 0.5); /* A subtle glow effect */
+}
