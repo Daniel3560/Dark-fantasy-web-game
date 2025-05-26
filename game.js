@@ -26,7 +26,7 @@ const skeletonImage = new Image();
 skeletonImage.src = 'skeleton.png'; // Path to your skeleton image file
 
 const backgroundImage = new Image(); // Background image object
-backgroundImage.src = 'Background.png'; // Path to your background image file
+backgroundImage.src = 'background.png'; // Path to your background image file
 
 const shadowWeaverImage = new Image(); // Shadow Weaver image object
 shadowWeaverImage.src = 'shadow_weaver.png'; // Make sure this path is correct for your image
@@ -121,13 +121,13 @@ skeletonImage.onerror = () => {
 
 // Event listener for when the background image successfully loads
 backgroundImage.onload = () => {
-    console.log("Background.png loaded successfully!");
+    console.log("background.png loaded successfully!");
     updateAssetStatus('background', true);
 };
 
 // Event listener for when the background image fails to load
 backgroundImage.onerror = () => {
-    console.error("Failed to load Background.png! Check path and filename or if the image is corrupted.");
+    console.error("Failed to load background.png! Check path and filename or if the image is corrupted.");
     updateAssetStatus('background', false); // Mark as failed
 };
 
