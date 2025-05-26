@@ -26,7 +26,7 @@ const skeletonImage = new Image();
 skeletonImage.src = 'skeleton.png'; // Path to your skeleton image file
 
 const backgroundImage = new Image(); // Background image object
-backgroundImage.src = 'background.png'; // Path to your background image file
+backgroundImage.src = 'Background.png'; // Path to your background image file
 
 const shadowWeaverImage = new Image(); // Shadow Weaver image object
 shadowWeaverImage.src = 'shadow_weaver.png'; // Make sure this path is correct for your image
