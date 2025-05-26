@@ -121,13 +121,13 @@ skeletonImage.onerror = () => {
 
 // Event listener for when the background image successfully loads
 backgroundImage.onload = () => {
-    console.log("background.png loaded successfully!");
+    console.log("Background.png loaded successfully!");
     updateAssetStatus('background', true);
 };
 
 // Event listener for when the background image fails to load
 backgroundImage.onerror = () => {
-    console.error("Failed to load background.png! Check path and filename or if the image is corrupted.");
+    console.error("Failed to load Background.png! Check path and filename or if the image is corrupted.");
     updateAssetStatus('background', false); // Mark as failed
 };
 
