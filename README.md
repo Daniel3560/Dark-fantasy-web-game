@@ -9,4 +9,4 @@ Attack: Left Mouse Click (Click near enemies)
 Open Shop: Click the 🛒 cart icon (bottom-right)
 Close Shop: Click the ✖️ in the shop panel
 
-✨ Play here: https://daniel3560.github.io/Dark-fantasy-web-game/✨ 
+✨ Play here: https://daniel3560.github.io/Dark-fantasy-web-game/ ✨ 
